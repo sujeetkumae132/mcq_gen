@@ -23,5 +23,5 @@ for path_name in file_list:
         os.makedirs(filedir,exist_ok=True)
         
     if not os.path.exists(path_name):
-        with open(filename,'w') as b:
+        with open(path,'w') as b:
             pass
